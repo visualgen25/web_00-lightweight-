@@ -356,7 +356,6 @@ section h2 {
     0 0 16px rgba(255,220,150,0.2);
 }
 
-.main-nav a[data-gold] { font-size: 22px; }
 
 [data-silver] {
   color: transparent;
@@ -397,6 +396,8 @@ header {
     transparent
   );
 }
+
+.main-nav a[data-gold] { font-size: 22px; }
 
 .main-nav a:hover {
   transform: translateY(-3px);
@@ -484,21 +485,21 @@ main {
   display: flex;
   gap: 1rem;
   z-index: 99999;
-  opacity: 0.9;
   padding-top: 20px;
 }
 
 .social-buttons a {
   padding: .75rem 1rem;
   background: linear-gradient(135deg,#cab062,#543a23,#a5833f);
-  box-shadow: 0 0 1rem rgba(rgba(0,0,0,0.8),rgb(0,0,0),rgb(0,0,0),0.7);
+  box-shadow: 0 0 1rem rgba(0,0,0,.7);
   border-radius: 10px;
   transition: transform .2s;
 }
 
-.social-buttons a span[dats] {
+.social-buttons a span {
   display: inline-block;
 }
+
 
 /* ============================================================
    11. SUBSCRIBE BUTTON
